@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <!-- These are the buttons for the language learning app-->
+    <!-- So far I have 3 languages buttons and a start button-->
+    <!-- The goal is to have at least 5 or more language buttons -->
+    <!-- Then to implement a function that informs the user they have selected a language-->
+    <!-- When they click on a button of any language -->
+    <Button
+        android:id="@+id/englishButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="English"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/spanishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish"
+        android:layout_below="@id/englishButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/frenchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French"
+        android:layout_below="@id/spanishButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/lessonButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Lesson"
+        android:layout_below="@id/frenchButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
