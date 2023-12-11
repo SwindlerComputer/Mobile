@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,8 +19,8 @@
         app:layout_constraintBottom_toTopOf="@+id/spanishButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_marginTop="32dp"/>
 
     <!-- Spanish Button -->
     <Button
@@ -32,8 +33,8 @@
         app:layout_constraintBottom_toTopOf="@+id/frenchButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_marginTop="16dp"/>
 
     <!-- French Button -->
     <Button
@@ -46,8 +47,8 @@
         app:layout_constraintBottom_toTopOf="@+id/lessonButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_marginTop="16dp"/>
 
     <!-- Start Lesson Button -->
     <Button
@@ -60,7 +61,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintVertical_bias="0.6"
+        android:layout_marginTop="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

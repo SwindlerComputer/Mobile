@@ -31,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (selectedLanguage != null) {
-                    launchLessonActivity(selectedLanguage);
+                    // Redirect to NativeLanguageActivity after selecting a language
+                    startNativeLanguageActivity();
                 } else {
-                    // Display a toast message if no language is selected when the user tries to start lesson
+                    // Display a toast message if no language is selected when the user tries to start a lesson
                     Toast.makeText(MainActivity.this, "Please select a language", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -62,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void handleLanguageButtonClick(String language, Button selectedButton) {
-        // Display a toast message, If I select a language e.g english it will say " You have selected english"
+        // Display a toast message when a language button is clicked
         Toast.makeText(MainActivity.this, "You have selected " + language, Toast.LENGTH_SHORT).show();
 
-        // Highlights button selected
+        // Highlights the selected button
         resetButtonHighlights();
         selectedButton.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light));
 
@@ -81,17 +82,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // This is for the selected language, e.g., English
-    private void launchLessonActivity(String language) {
-        // This navigates from main to lesson activity
-        Intent intent = new Intent(MainActivity.this, LessonActivity.class);
-        intent.putExtra("language", language);
+    private void startNativeLanguageActivity() {
+        // Start NativeLanguageActivity after selecting a native language
+        Intent intent = new Intent(MainActivity.this, NativeLanguageActivity.class);
+        intent.putExtra("nativeLanguage", selectedLanguage);
         startActivity(intent);
     }
 
-    // If user selects start quiz they are able to go back with the button when pressed
+    // If the user selects "Start Lesson," they are able to go back with the button when pressed
     @Override
     public void onBackPressed() {
-        // Handle back button press (e.g., navigate back to MainActivity)
+        // Handle the back button press (e.g., navigate back to MainActivity)
         super.onBackPressed();
     }
 }

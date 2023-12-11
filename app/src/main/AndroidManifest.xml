@@ -14,17 +14,21 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
 
+        <!-- Set LoginActivity as the launcher activity -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            tools:ignore="WrongManifestParent">
+            android:name=".LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Add declarations for LessonActivity and ProgressActivity -->
+        <!-- MainActivity and other activities -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
         <activity
             android:name=".LessonActivity"
             android:exported="true" />
@@ -32,6 +36,19 @@
         <activity
             android:name=".ProgressActivity"
             android:exported="true" />
+        <activity
+            android:name=".QuizActivity"
+            android:label="Quiz Activity">
+        </activity>
+
+        <activity
+            android:name=".PracticeActivity"
+            android:label="Practice Activity">
+        </activity>
+        <activity android:name=".NativeLanguageActivity" />
+
+
+
 
     </application>
 
