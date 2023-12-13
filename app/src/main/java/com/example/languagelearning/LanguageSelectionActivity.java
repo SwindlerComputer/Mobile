@@ -20,7 +20,7 @@ public class LanguageSelectionActivity extends AppCompatActivity {
         startLessonButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Replace this with the logic to go to the lesson activity
+
                 goToLessonActivity();
             }
         });
@@ -31,6 +31,6 @@ public class LanguageSelectionActivity extends AppCompatActivity {
         // Pass the native language to the LessonActivity
         intent.putExtra("nativeLanguage", getIntent().getStringExtra("nativeLanguage"));
         startActivity(intent);
-        // finish(); // Optional: Close the current activity
+
     }
 }

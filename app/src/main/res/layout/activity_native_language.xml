@@ -1,4 +1,3 @@
-<!-- activity_native_language.xml -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -31,6 +30,54 @@
         android:layout_height="wrap_content"
         android:text="Start Practice"
         android:layout_below="@id/startLessonButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!--  for the Word of the Day with a button to randomize -->
+    <RelativeLayout
+        android:id="@+id/wordOfTheDayContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startPracticeButton"
+        android:layout_marginTop="20dp">
+
+        <!-- TextView for displaying the Word of the Day -->
+        <TextView
+            android:id="@+id/wordOfTheDayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word of the Day Placeholder"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <!-- Button to randomize the Word of the Day -->
+        <Button
+            android:id="@+id/randomizeWordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Randomize"
+            android:layout_below="@id/wordOfTheDayTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+    <!-- Button for Fun Facts -->
+    <Button
+        android:id="@+id/funFactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun Facts"
+        android:layout_below="@id/wordOfTheDayContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- TextView for displaying Date and Time -->
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/funFactsButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 

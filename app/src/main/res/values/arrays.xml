@@ -1,0 +1,148 @@
+
+
+<resources>
+
+    <!-- English Learning French -->
+    <string-array name="quiz_questions">
+        <item>Translate "Hello."</item>
+        <item>Translate "Goodbye."</item>
+        <item>Translate "Thank you."</item>
+        <item>Translate "Please."</item>
+        <item>Translate "Yes."</item>
+        <item>Translate "No."</item>
+        <item>Translate "Excuse me."</item>
+        <item>Translate "How are you?"</item>
+        <item>Translate "I love you."</item>
+
+    </string-array>
+
+    <string-array name="quiz_correct_answers">
+        <item>Bonjour</item>
+        <item>Au revoir</item>
+        <item>Merci</item>
+        <item>S\'il vous plaît</item>
+        <item>Oui</item>
+        <item>Non</item>
+        <item>Excusez-moi</item>
+        <item>Comment ça va ?</item>
+        <item>Je t\'aime</item>
+
+    </string-array>
+
+    <string-array name="quiz_incorrect_options">
+        <item>Hello</item>
+        <item>Adieu</item>
+        <item>Thanks</item>
+        <item>Please</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Pardon</item>
+        <item>Quel est votre nom ?</item>
+        <item>Je te déteste</item>
+
+    </string-array>
+
+    <!-- Spanish Learning English -->
+    <string-array name="quiz_questions_es">
+        <item>Translate "Hola."</item>
+        <item>Translate "Adiós."</item>
+        <item>Translate "Gracias."</item>
+        <item>Translate "Por favor."</item>
+        <item>Translate "Sí."</item>
+        <item>Translate "No."</item>
+        <item>Translate "Perdón."</item>
+        <item>Translate "¿Cómo estás?"</item>
+        <item>Translate "Te quiero."</item>
+
+    </string-array>
+
+    <string-array name="quiz_correct_answers_es">
+        <item>Hello</item>
+        <item>Goodbye</item>
+        <item>Thanks</item>
+        <item>Please</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Pardon</item>
+        <item>How are you?</item>
+        <item>I love you</item>
+
+    </string-array>
+
+    <string-array name="quiz_incorrect_options_es">
+        <item>Bonjour</item>
+        <item>Adieu</item>
+        <item>Merci</item>
+        <item>S\'il vous plaît</item>
+        <item>Non</item>
+        <item>Oui</item>
+        <item>Excusez-moi</item>
+        <item>Quel est votre nom ?</item>
+        <item>Je te déteste</item>
+
+    </string-array>
+
+    <!-- French Learning Polish -->
+    <string-array name="quiz_questions_fr">
+        <item>Translate "Bonjour."</item>
+        <item>Translate "Au revoir."</item>
+        <item>Translate "Merci."</item>
+        <item>Translate "S'il vous plaît."</item>
+        <item>Translate "Oui."</item>
+        <item>Translate "Non."</item>
+        <item>Translate "Excusez-moi."</item>
+        <item>Translate "Comment ça va ?"</item>
+        <item>Translate "Je t'aime."</item>
+
+    </string-array>
+
+    <string-array name="quiz_correct_answers_fr">
+        <item>Witaj</item>
+        <item>Do widzenia</item>
+        <item>Dziękuję</item>
+        <item>Proszę</item>
+        <item>Tak</item>
+        <item>Nie</item>
+        <item>Przepraszam</item>
+        <item>Jak się masz?</item>
+        <item>Kocham cię</item>
+        <!-- Add more correct answers as needed -->
+    </string-array>
+
+    <string-array name="quiz_incorrect_options_fr">
+        <item>Hello</item>
+        <item>Goodbye</item>
+        <item>Thanks</item>
+        <item>Please</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Pardon</item>
+        <item>How are you?</item>
+        <item>I love you</item>
+
+    </string-array>
+
+    <!-- Fun facts about England -->
+    <string-array name="fun_facts_english">
+        <item>England is famous for its iconic red double-decker buses.</item>
+        <item>The Tower of London is a historic castle located on the River Thames in central London.</item>
+        <item>Tea is a quintessential part of English culture.</item>
+    </string-array>
+
+    <!-- Fun facts about Spain -->
+    <string-array name="fun_facts_spanish">
+        <item>Spain is known for its lively festivals, such as La Tomatina and Running of the Bulls.</item>
+        <item>The Alhambra in Granada is a stunning palace and fortress complex.</item>
+        <item>Tapas, small savory dishes, are a popular part of Spanish cuisine.</item>
+    </string-array>
+
+    <!-- Fun facts about France -->
+    <string-array name="fun_facts_french">
+        <item>The Eiffel Tower, located in Paris, is one of the most famous landmarks in the world.</item>
+        <item>France is renowned for its delicious pastries, including croissants and macarons.</item>
+        <item>The Louvre Museum in Paris is the world\'s largest art museum and a historic monument.</item>
+    </string-array>
+
+
+
+</resources>

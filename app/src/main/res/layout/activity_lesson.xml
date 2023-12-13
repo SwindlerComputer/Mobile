@@ -1,51 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- activity_lesson.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- UI stuff for Lesson Activity -->
     <TextView
-        android:id="@+id/lessonContentTextView"
+        android:id="@+id/lessonTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lesson Content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/lessonContentTextView"
-        android:layout_marginTop="16dp"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:max="100"
-        android:progress="50"/>
+        android:text="Lesson Content Goes Here"
+        android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/startQuizButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Quiz"
-        android:layout_below="@+id/progressBar"
+        android:layout_below="@+id/lessonTextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="16dp" />
 
-    <Button
-        android:id="@+id/practiceButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Practice"
-        android:layout_below="@+id/startQuizButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Back to Main"
-        android:layout_below="@+id/practiceButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+
 </RelativeLayout>

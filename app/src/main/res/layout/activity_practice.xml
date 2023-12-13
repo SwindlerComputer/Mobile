@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".PracticeActivity">
 
-    <!-- Display the practice task -->
+    <!-- Display the practice challenge -->
     <TextView
-        android:id="@+id/practiceTextView"
+        android:id="@+id/practiceChallengeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Practice Task"
@@ -21,7 +21,7 @@
         android:id="@+id/translationEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/practiceTextView"
+        android:layout_below="@+id/practiceChallengeTextView"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"

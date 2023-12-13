@@ -1,6 +1,6 @@
 package com.example.languagelearning;
 
-// AuthenticationManager.java
+// This gave me a basic way to login to the app altought hardcoded
 public class LogInMan {
 
     private static final String VALID_USERNAME = "user";

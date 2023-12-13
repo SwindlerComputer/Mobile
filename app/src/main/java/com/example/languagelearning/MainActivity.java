@@ -75,13 +75,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void resetButtonHighlights() {
-        // Reset the background color of all buttons
+        // Reset the background color of all buttons once one is chosen
         englishButton.setBackgroundColor(getResources().getColor(android.R.color.transparent));
         spanishButton.setBackgroundColor(getResources().getColor(android.R.color.transparent));
         frenchButton.setBackgroundColor(getResources().getColor(android.R.color.transparent));
     }
 
-    // This is for the selected language, e.g., English
+    // This is for the selected language, e.g. English
     private void startNativeLanguageActivity() {
         // Start NativeLanguageActivity after selecting a native language
         Intent intent = new Intent(MainActivity.this, NativeLanguageActivity.class);

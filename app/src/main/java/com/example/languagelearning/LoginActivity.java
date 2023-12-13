@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void launchNativeLanguageActivity() {
-        String nativeLanguage = "English";  // Replace with your logic to get the native language
+        String nativeLanguage = "English";
         Intent intent = new Intent(LoginActivity.this, NativeLanguageActivity.class);
         intent.putExtra("nativeLanguage", nativeLanguage);
         startActivity(intent);

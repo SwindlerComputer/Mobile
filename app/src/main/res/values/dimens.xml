@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- res/values/dimens.xml -->
-<!-- res/values/dimens.xml -->
+
 <resources>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="activity_horizontal_margin" />
-    <!-- Add more dimensions as needed -->
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+
+
 </resources>
 
